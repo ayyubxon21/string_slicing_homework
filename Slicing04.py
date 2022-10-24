@@ -7,5 +7,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return s[n]
+    return s[0:n]
 print(main("Samarqand",2))
