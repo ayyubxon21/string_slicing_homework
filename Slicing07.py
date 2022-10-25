@@ -7,4 +7,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[0:len(s)-n]
+print(main("lossantos",2))
