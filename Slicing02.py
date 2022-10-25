@@ -6,5 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return s[2:6]
+    return s[len(s)-4:len(s)]
 print(main("pyhton"))
