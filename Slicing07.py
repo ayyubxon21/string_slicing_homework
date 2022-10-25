@@ -8,4 +8,5 @@ def main(s,n):
         str: answer
     """
     return s[0:len(s)-n]
-print(main("lossantos",2))
+print(type(s))
+print(main("lossantos",5))
