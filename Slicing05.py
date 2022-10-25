@@ -7,4 +7,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[len(s)-n:len(s)]
+print(main("positive",1))
