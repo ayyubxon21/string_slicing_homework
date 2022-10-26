@@ -1,4 +1,4 @@
-def main(a,n):
+def main(s,n):
     """
     The s string variable is given. return all characters except n characters at the end.
     Args:
@@ -7,5 +7,5 @@ def main(a,n):
     Returns:
         str: answer
     """
-    return a[0:len(a)-n]
+    return s[:-n]
 print(main("codeschooluz",3))
